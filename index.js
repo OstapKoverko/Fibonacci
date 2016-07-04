@@ -1,12 +1,12 @@
-var arr = [0, 1];
-var n = +prompt('Enter value N:');
-if (n > 1) {
+var fibonacciArray = [0, 1];
+var number = +prompt('Enter value N:');
+if (number > 1) {
     var i = 1;
-    var f = 1;
-    while (i < n) {
-        f = arr[i] + arr[i-1];
-        arr.push(f);
+    var fibonacci = 1;
+    while (i < number) {
+        fibonacci = fibonacciArray[i] + fibonacciArray[i-1];
+        fibonacciArray.push(fibonacci);
         i++;
     }
-alert('Fibonacci number: '+arr);
+alert('Fibonacci number: '+fibonacciArray);
 } else alert('Incorrect value. N must bu number and > 1 !'); 
