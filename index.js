@@ -8,5 +8,5 @@ if (n > 1) {
         arr.push(f);
         i++;
     }
-alert(arr);
+alert('Fibonacci number: '+arr);
 } else alert('Incorrect value. N must bu number and > 1 !'); 
