@@ -8,5 +8,6 @@ if (number > 1) {
         fibonacciArray.push(fibonacci);
         i++;
     }
-alert('Fibonacci number: '+fibonacciArray);
-} else alert('Incorrect value. N must bu number and > 1 !'); 
+var fibonacciString = fibonacciArray.join(', ');
+alert('Fibonacci number: '+fibonacciString);
+} else alert('Incorrect value. N must bu number and > 1 !');
